@@ -19,7 +19,7 @@ section {
 .container {
     max-width: 1140px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 50px;
 }
 
 
@@ -130,4 +130,40 @@ section {
 
 .portfolio {
     background-color: #f5f5f5;
+    margin-bottom: 50px;
+}
+
+.port-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    background-color: #fff;
+    padding: 20px 0 20px 0;
+}
+
+.port-img {
+    flex: 1 0 auto;
+    position: relative;
+    justify-self: center;
+    align-self: center;
+    object-fit: cover;
+    overflow: hidden;
+    max-width: 270px;
+    min-width: none;
+    width: 300px;
+    height: 300px;
+}
+
+.port-card h5 {
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+.row .port-card {
+    justify-content: space-between;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #f5f5f5;
 }
