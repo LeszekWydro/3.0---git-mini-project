@@ -30,6 +30,10 @@ section {
 
 .headder {
     background-image: url("https://i.postimg.cc/SKnv0RBM/pexels-pixabay-414974.jpg");
+    background-position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
 }
 
 .headder li {
