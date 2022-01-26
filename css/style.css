@@ -130,7 +130,7 @@ section {
 
 .portfolio {
     background-color: #f5f5f5;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .port-card {
@@ -140,7 +140,7 @@ section {
     justify-content: center;
     align-content: center;
     background-color: #fff;
-    padding: 20px 0 20px 0;
+    padding: 20px 0 0 0;
 }
 
 .port-img {
@@ -166,4 +166,37 @@ section {
     border-style: solid;
     border-width: 10px;
     border-color: #f5f5f5;
+}
+
+footer {
+    display: grid;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 20px;
+    color: #808080;
+
+}
+
+footer li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 10px;
+}
+
+footer i {
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    background-color: #FFD700;
+    border-style: solid;
+    border-radius: 100%;
+    padding-top: 10px;
+    color: #fff;
+    transition: all .2s ease-in-out;
+}
+
+footer i:hover {
+    transform: scale(1.2);
 }
