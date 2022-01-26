@@ -13,7 +13,7 @@ body {
 }
 
 section {
-    padding: 50px 0;
+    padding: 0;
 }
 
 .container {
@@ -22,11 +22,11 @@ section {
     padding: 0 20px;
 }
 
-.headder .row {
-    align-items: center;
-}
 
 .navbar-title {
+    text-align: center;
+    margin-top: 0;
+    justify-content: top;
     font-size: 50px;
     font-family: 'Meow Script', cursive;
     color: #FFD700;
