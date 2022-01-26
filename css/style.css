@@ -28,6 +28,10 @@ section {
     text-shadow: 3px 3px #000;
 }
 
+.headder {
+    background-image: url("https://i.postimg.cc/SKnv0RBM/pexels-pixabay-414974.jpg");
+}
+
 .headder li {
     display: inline-block;
     padding: 5px;
