@@ -23,6 +23,7 @@ section {
 }
 
 .navbar-title {
+
     font-size: 30px;
     color: #FFD700;
     text-shadow: 3px 3px #000;
@@ -30,6 +31,7 @@ section {
 
 
 .headder {
+    display: flex;
     background-image: url("https://i.postimg.cc/SKnv0RBM/pexels-pixabay-414974.jpg");
     background-position: relative;
     background-repeat: no-repeat;
@@ -47,4 +49,25 @@ section {
     padding: 5px;
     list-style: none;
     text-shadow: 3px 3px #fff;
+}
+
+.invitation {
+    justify-content: center;
+    margin: auto;
+    padding: 40px;
+}
+
+.invitation h3 {
+    font-size: 40px;
+    color: #FFD700;
+    text-shadow: 2px 2px #000;
+    padding-top: 40px;
+    letter-spacing: 4px;
+}
+
+.invitation h2 {
+    font-size: 80px;
+    color: #FFD700;
+    text-shadow: 2px 2px #000;
+    margin-top: 10px;
 }
