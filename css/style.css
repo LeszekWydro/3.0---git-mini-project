@@ -13,7 +13,7 @@ body {
 }
 
 section {
-    padding: 96px 0;
+    padding: 50px 0;
 }
 
 .container {
@@ -22,13 +22,14 @@ section {
     padding: 0 20px;
 }
 
+.navbar-title {
+    font-size: 30px;
+    color: #FFD700;
+    text-shadow: 3px 3px #000;
+}
+
 .headder li {
     display: inline-block;
     padding: 5px;
     list-style: none;
-}
-
-.headder img {
-    display: flex;
-    position: absolute;
 }
