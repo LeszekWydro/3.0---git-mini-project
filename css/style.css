@@ -17,7 +17,7 @@ section {
 }
 
 .container {
-    max-width: 1140px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -28,6 +28,7 @@ section {
     text-shadow: 3px 3px #000;
 }
 
+
 .headder {
     background-image: url("https://i.postimg.cc/SKnv0RBM/pexels-pixabay-414974.jpg");
     background-position: relative;
@@ -36,8 +37,14 @@ section {
     height: 800px;
 }
 
+.headder ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .headder li {
-    display: inline-block;
+    font-size: 25px;
     padding: 5px;
     list-style: none;
+    text-shadow: 3px 3px #fff;
 }
